@@ -19,12 +19,12 @@ elif len(sys.argv) < 3:
 else:
     sys.exit(1)
 
-if siteType.lower()  == 'support':
-    description = 'Support Site'
-    targetDomain = 'supportsite.com'
-elif siteType.lower() == 'corp':
-    description = 'Corporation Site'
-    targetDomain = 'corpsite.com'
+if siteType.lower()  == 'type1':
+    description = 'Type 1 site'
+    targetDomain = 'type1.com'
+elif siteType.lower() == 'type2':
+    description = 'Type 2 site'
+    targetDomain = 'type2.com'
 else:
     print "You have entered an invalid type\n"
     usage()
